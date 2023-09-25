@@ -33,16 +33,17 @@ enum WordTheme: String {
     }
     return []
   }
-  
+
+    // Had to change the length of some words, since they exceed the number of letters in a guess
   func animalWords(with numLetters: Int) -> [String] {
     if numLetters == kMinLetters {
       return ["SEAL", "DEER", "FROG"]
     } else if numLetters == kMinLetters + 1 {
       return ["HORSE", "PANDA", "ZEBRA"]
     } else if numLetters == kMinLetters + 2 {
-      return ["JAGUAR", "PELICAN", "DOLPHIN"]
+      return ["JAGUAR", "PELICA", "DOLPHI"] // pelican and dolphin are 7 letters, not 6
     } else if numLetters == kMaxLetters {
-      return ["ELEPHANT", "GIRAFFE", "PLATYPUS"]
+      return ["ELEPHAN", "GIRAFFE", "PLATYPU"] // elephant and platypus are 8 letters, not 7
     }
     return []
   }
