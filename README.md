@@ -26,11 +26,9 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-<div>
-    <a href="https://www.loom.com/share/bc31dd0da82740b6b4ca70d6c9bf18ba">
-      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/bc31dd0da82740b6b4ca70d6c9bf18ba-with-play.gif">
-    </a>
-  </div>
+<a href="https://www.loom.com/share/bc31dd0da82740b6b4ca70d6c9bf18ba">
+    <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/bc31dd0da82740b6b4ca70d6c9bf18ba-with-play.gif">
+</a>
 ## Notes
 
 It was challenging at first when I had to safely unwrap the optional before I changed the Wordle board. I was confused with how to check the type of the input settings, but after looking at the guides I understood how to do it.
